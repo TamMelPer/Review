@@ -1,15 +1,17 @@
-Client: Company that assesses how students did on tests.
-Will be given a string of test results and return back a report
-Build a School Report Builder
 
-Input - A string of test results. Example: "Green, Amber, Red"
-Output - Example: "Green: 1\n Amber: 1\n Red: 1"
+## PROCESS REVIEWS
 
+ ### 1 School Report Builder, 21 December 2020
+Client Brief: We assess how students did on tests. Will give a string of test results and expect back a report of the grade with a count of how many students have achieved each grade.
 
-Input   |   Output
-"Green" |   Green: 1
-"Green, Green" | Green: 2
-"Green, Amber" | Green: 1\n Amber: 1
-"Green, Green, Amber, Red" | Green: 2\n Amber: 1\n Red: 1
+I asked for an example of the input and the expected output and was given "Green, Amber, Red" ⇒  "Green: 1\n Amber: 1\n Red: 1"
 
-Edge Case: If not one of the grades, return as Uncounted.
+I enquired about whether the grades would always be given capitalised and was told it could be any combination of lower case, all caps etc. I also asked if it is possible that the grades would be spelt incorrectly or if there'd be random grades and was told that it would be possible and that I should also return a count of all the grades that had been uncounted.
+
+I decided to start with the basics and consider the edge cases if there was time but once I opened the text editor I froze and got totally blocked.
+
+After the review, I took a break, came back, deleted all my code and gave myself 30 minutes to start from scratch.
+
+I was able to produce an MVP using the TDD process and can interact with it on the command line:
+
+![MVP](mvp.png)
