@@ -14,4 +14,4 @@ After the review, I took a break, came back, deleted all my code and gave myself
 
 I was able to produce an MVP using the TDD process and can interact with it on the command line:
 
-![MVP](mvp.png)
+![School Report](https://user-images.githubusercontent.com/71432715/102894065-6fe5ab00-445a-11eb-8c91-ebfd77b600a3.png)
