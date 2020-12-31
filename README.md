@@ -1,17 +1,18 @@
-
 ## PROCESS REVIEWS
 
- ### 1 School Report Builder, 21 December 2020
-Client Brief: We assess how students did on tests. Will give a string of test results and expect back a report of the grade with a count of how many students have achieved each grade.
+ At Makers, reviews are the most effective way to see if your processes are of a professional standard. They’re an hour long, giving you a great read on how you’re working.
 
-I asked for an example of the input and the expected output and was given "Green, Amber, Red" ⇒  "Green: 1\n Amber: 1\n Red: 1"
+This repository is a record of my reviews during my time at Makers.
 
-I enquired about whether the grades would always be given capitalised and was told it could be any combination of lower case, all caps etc. I also asked if it is possible that the grades would be spelt incorrectly or if there'd be random grades and was told that it would be possible and that I should also return a count of all the grades that had been uncounted.
+ ### What happens during a Review at Makers?
+ The Review is an hour-long remote session conducted via Zoom. The reviewer roleplays as a product owner with a set of non-technical requirements. The developer uses the Makers dev process to convert these requirements into a working, tested, well-written application.
 
-I decided to start with the basics and consider the edge cases if there was time but once I opened the text editor I froze and got totally blocked.
+The Review assesses how well a developer:
 
-After the review, I took a break, came back, deleted all my code and gave myself 30 minutes to start from scratch.
+ - Converts fuzzy, human wants and needs into technical requirements,
+- Writes good tests,
+- Writes clean code,
+- Debugs when things go wrong,
+- Delivers value to the customer in an Agile way.
 
-I was able to produce an MVP using the TDD process and can interact with it on the command line:
-
-![School Report](https://user-images.githubusercontent.com/71432715/102894065-6fe5ab00-445a-11eb-8c91-ebfd77b600a3.png)
+The review offers developers formative feedback: feedback to help Makers do better, and prepare them for job interviews and developer roles. It’s not summative - there is no pass/fail measurement involved. 
