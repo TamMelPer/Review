@@ -16,6 +16,9 @@ describe '#filter' do
     expect(beatles.filter).to eq [90, 90, 100, 110, 120]
   end
 
-
+  it 'returns a filtered soundwave if a frequency is higher than the max frequency' do
+    beatles = BandPassFilter.new([80, 90, 100, 110, 120], 80, 110)
+    expect(beatles.filter).to eq [80, 90, 100, 110, 110]
+  end
 
 end
