@@ -31,5 +31,8 @@ describe '#filter' do
     expect(beatles.filter).to eq [40, 90, 100, 110, 1000]
   end
 
+  it 'returns an error if soundwave empty' do
+    expect { beatles = BandPassFilter.new([]) }.to raise_error 'No Soundwave Found'
+  end
 
 end
