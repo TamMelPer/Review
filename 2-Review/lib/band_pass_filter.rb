@@ -1,6 +1,6 @@
 class BandPassFilter
 
-  def initialize(soundwave, min_frequency, max_frequency)
+  def initialize(soundwave, min_frequency = 40, max_frequency = 1000)
     @soundwave = soundwave
     @min_frequency = min_frequency
     @max_frequency = max_frequency
