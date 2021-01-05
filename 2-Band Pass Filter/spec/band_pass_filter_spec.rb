@@ -35,4 +35,8 @@ describe '#filter' do
     expect { beatles = BandPassFilter.new([]) }.to raise_error 'No Soundwave Found'
   end
 
+  it 'returns an error if soundwave has a string' do
+    expect { beatles = BandPassFilter.new(["2",40,60]) }.to raise_error 'Wrong data type'
+  end
+
 end
