@@ -1,16 +1,14 @@
-## README
+## 2. Band Pass Filter , 5 January 2021
 
-Digital Audio Workstations
+### Client Brief:
+A Digital Audio Workstations company that requires a filter that can be applied to change how tracks sound. Write a band pass filters.
 
-filters applied to change how tracks sound
+### Information supplied:
+- Sound wave, which is a sequence of frequencies, an array of integers.
+- Min frequency and max frequency
+- Default min and max frequency, 40, 1000 respectively. Used together, never individually.
 
-write a band pass filters
-
-sound wave is a sequence of frequencies, an array of integers.
-min frequency and max frequency supplied
-default min and max frequency, 40, 1000 respectively. Used together, never individually.
-
-[80, 90, 100, 110, 120], lower_limit: 90, upper_limit: 110 => [90, 90, 100, 110, 110]
+### Plan:
 
 Input                             | Output
 [90], 90, 110                     | [90]
@@ -23,5 +21,9 @@ Input                             | Output
 ["a"]                             | "Wrong data type" -> Raise Type Error Exception
 
 
-beatles = BandPassFilter.new(soundwave, lower_limit, upper_limit)
-beatles.filter
+A class called **BandPassFilter** that takes three arguments on initialisation and a method **filter** that changes the soundwave.
+
+Example:
+
+    beatles = BandPassFilter.new(soundwave, lower_limit, upper_limit)
+    beatles.filter
