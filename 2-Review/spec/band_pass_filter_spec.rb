@@ -30,4 +30,6 @@ describe '#filter' do
     beatles = BandPassFilter.new([30, 90, 100, 110, 1110])
     expect(beatles.filter).to eq [40, 90, 100, 110, 1000]
   end
+
+
 end
