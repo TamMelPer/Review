@@ -1,11 +1,17 @@
 class SpellChecker
 
+DICTIONARY = ["This"]
+
   def initialize(sentence)
     @sentence = sentence
   end
 
   def check
-    @sentence
+    if @sentence == DICTIONARY[0]
+      @sentence
+    else
+      "~#{@sentence}~"
+    end
   end
 
 end
