@@ -23,6 +23,11 @@ describe SpellChecker do
       expect(sentence.check).to eq "This is spelled ~crrectly~"
     end
 
+    it 'returns the sentence with multiple incorrect words between tildas' do
+      sentence = SpellChecker.new("This is spellect crrectly")
+      expect(sentence.check).to eq "This is ~spellect~ ~crrectly~"
+    end
+
   end
 
 end
