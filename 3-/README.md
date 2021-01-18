@@ -2,7 +2,9 @@ MegaSoftWeird?
 Word processor, would like a spell checking functionality. Write a spell checker. Will provide a dictionary with correctly spelled words but for now, set up my own dictionary. Input will only contain letters and spaces. No punctuation or numbers.
 
 Example Input                 | Example Output
+"This"                        | "This"
 "This is spelled crrectly"    | "This is spelled ~crrectly~"
+"This is spellect crrectly"   | "This is ~spellect~ crrectly"
 ""                            | ""
 
 Class - SpellChecker.new(String)
