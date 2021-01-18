@@ -28,6 +28,11 @@ describe SpellChecker do
       expect(sentence.check).to eq "This is ~spellect~ ~crrectly~"
     end
 
+    it 'returns an empty string if given an empty string' do
+      sentence = SpellChecker.new("")
+      expect(sentence.check).to eq ""
+    end
+
   end
 
 end
