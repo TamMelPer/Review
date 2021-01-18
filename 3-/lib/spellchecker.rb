@@ -1,17 +1,21 @@
 class SpellChecker
 
-DICTIONARY = ["this", "This"]
+DICTIONARY = ["this", "This", "is", "spelled", "correctly"]
 
-  def initialize(sentence)
-    @sentence = sentence
+  def initialize(original_sentence)
+    @original_sentence = original_sentence.split
+    @new_sentence = []
   end
 
   def check
-    if DICTIONARY.include?(@sentence)
-      @sentence
-    else
-      "~#{@sentence}~"
+    @original_sentence.map do |word|
+      if DICTIONARY.include?(word)
+      @new_sentence << word
+      else
+      @new_sentence << "~#{word}~"
+      end
     end
+    @new_sentence.join(" ")
   end
 
 end
