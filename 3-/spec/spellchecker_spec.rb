@@ -12,6 +12,11 @@ describe SpellChecker do
       sentence = SpellChecker.new("Ths")
       expect(sentence.check).to eq "~Ths~"
     end
+
+    it 'returns the correctly spelled word' do
+      sentence = SpellChecker.new("this")
+      expect(sentence.check).to eq "this"
+    end
   end
 
 end
