@@ -8,6 +8,14 @@ DICTIONARY = ["this", "This", "is", "spelled", "correctly"]
   end
 
   def check
+    check_correct_spelling
+    @new_sentence.join(" ")
+  end
+
+
+  private
+
+  def check_correct_spelling
     @original_sentence.map do |word|
       if DICTIONARY.include?(word)
       @new_sentence << word
@@ -15,7 +23,7 @@ DICTIONARY = ["this", "This", "is", "spelled", "correctly"]
       @new_sentence << "~#{word}~"
       end
     end
-    @new_sentence.join(" ")
+    @new_sentence
   end
 
 end
