@@ -1,6 +1,6 @@
 ## PROCESS REVIEWS
 
- At Makers, reviews are the most effective way to see if your processes are of a professional standard. They’re an hour long, giving you a great read on how you’re working.
+ At Makers, reviews are the most effective way to see if your processes are of a professional standard. They are conducted by [CoGrammar](https://www.cogrammar.com/)
 
 This repository is a record of my reviews during my time at Makers.
 
@@ -22,8 +22,10 @@ The review offers developers formative feedback: feedback to help Makers do bett
 ### 2
 05 January 2021 / 09:00 AM / Reviewer: Ronald Munodawafa
 "You have improved dramatically! Your investment in improving your development process is showing off quite well! I was impressed with the session and think you now have a stable process. For your further improvement, I encourage you to work on refactoring as part of your development iterations. Other than, keep it up!"
+A screen recording of this session is available on [You Tube](https://www.youtube.com/watch?v=ywhMAvlyCWM).
+Detailed feedback is available [here](https://github.com/TamMelPer/Reviews/files/5920715/2021-01-05-Red.Wartortle.8-feedback.1.pdf)
 ### 1
 21 December 2020 / 11:00 AM / Reviewer: Ronald Munodawafa
 "You had a good reflection on your process and where you could improve. If you practise using your method through the reviews and your projects, you might find it less intimidating. I believe you have the right idea for what your process should look like and need time to become comfortable as a developer. I wish you the best of luck!"
 
-Detailed feedback available upon request
+
